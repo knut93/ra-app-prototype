@@ -25,4 +25,6 @@ model Client {
   c_id        Int         @id @default(autoincrement())
   email       String      @unique
   lastName    String
+  firstName   String
+  birthdate   DateTime    @default(now())
 }

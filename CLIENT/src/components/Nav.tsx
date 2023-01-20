@@ -4,6 +4,7 @@ import Link from './navigation/Link';
 const links = [
     { label: 'Home', path: '/' },
     { label: 'Users', path: '/users' },
+    { label: 'Clients', path: '/clients' },
 ];
 
 function NavMenu() {
